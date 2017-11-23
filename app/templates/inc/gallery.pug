@@ -1,0 +1,15 @@
+mixin item-gallery
+  .card.text-white.-custom
+    img.card-img(ng-src='{{item.photo}}', alt='Card image')
+    .card-img-overlay
+      h4.card-title {{item.title}}
+      p.card-text
+        | {{item.description}}
+      p.card-text {{item.date}}
+
+.gallery
+  .container
+    .row
+      .col-sm-4(ng-repeat="item in list"): +item-gallery
+
+    //span.loading.-center Carregando...

@@ -1,0 +1,38 @@
+//- remover antes do deploy
+meta(name='robots', content='noindex, nofollow')
+
+meta(charset='utf-8')
+meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+// build:css addons.css
+link(href='source/bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet', media='screen')
+// endbuild
+
+//- style
+link(href='style.min.css', rel='stylesheet', media='screen')
+
+//- favicons
+link(rel="apple-touch-icon", sizes="180x180", href="source/ico/apple-touch-icon.png")
+link(rel="icon", type="image/png", href="source/ico/favicon-32x32.png", sizes="32x32")
+link(rel="icon", type="image/png", href="source/ico/favicon-16x16.png", sizes="16x16")
+link(rel="manifest", href="source/ico/manifest.json")
+link(rel="mask-icon", href="source/ico/safari-pinned-tab.svg", color="#5bbad5")
+meta(name="apple-mobile-web-app-title", content="Enko")
+meta(name="application-name", content="Enko")
+meta(name="theme-color", content="#ffffff")
+
+//- opengraph
+meta(name='description', content='')
+link(rel='canonical', href='')
+meta(property='og:locale', content='pt_BR')
+meta(property='og:type', content='website')
+meta(property='og:title', content='')
+meta(property='og:description', content='')
+meta(property='og:url', content='')
+meta(property='og:site_name', content='')
+meta(property='article:publisher', content='')
+meta(property='og:image', content='source/ico/opengraph.png')
+
+block title
+  title(itemprop='name') FindPic - MMDA Test

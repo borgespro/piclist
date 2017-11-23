@@ -1,0 +1,26 @@
+.main-header
+
+  .navbar-brand
+    color: $color-01
+    +media($sm)
+      +position(absolute, null null null 20px)
+    &:hover
+      color: lighten($color-01, 20%)
+
+  .navbar
+    +media($sm)
+      +padding(25px 15px)
+
+  .form-inline
+    align-items: center
+    justify-content: center
+    .form-control
+      +media($xs)
+        flex: 4
+      +media($sm)
+        min-width: 400px
+
+    .btn
+      +media($xs)
+        flex: 1
+        margin-left: 10px

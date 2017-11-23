@@ -1,0 +1,5 @@
+extends ./layouts/base.pug
+block view
+  include ./inc/header.pug
+  include ./inc/intro.pug
+  gallery(list="vm.list")

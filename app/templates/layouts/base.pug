@@ -1,0 +1,9 @@
+doctype html
+html(lang='pt-br', class="no-js")
+
+  head(itemscope itemtype="http://schema.org/WebSite")
+    include .././inc/general/head.pug
+
+  body(ng-app='picApp', ng-controller='MainController as vm')
+    block view
+    include .././inc/general/foot.pug

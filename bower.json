@@ -1,0 +1,27 @@
+{
+  "name": "MMDA Teste",
+  "version": "0.0.0",
+  "authors": [
+    "Thiago Reis"
+  ],
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "neat": "https://github.com/thoughtbot/neat.git#~1.7.2",
+    "bourbon": "^4.3.4",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bootstrap": "v4.0.0-alpha.6",
+    "tether": "^1.4.2",
+    "ngInfiniteScroll": "1.0.0"
+  }
+}

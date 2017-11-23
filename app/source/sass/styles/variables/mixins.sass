@@ -1,0 +1,94 @@
+// Container Sizes
+.container
+	+padding(null 10%)
+	+media($sm)
+		+outer-container()
+		max-width: 750px
+	+media($md)
+		+padding(null 15px)
+		max-width: 970px
+	+media($lg)
+		max-width: 1170px
+	+media($xl)
+		max-width: 1200px
+
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+
+// Transition Link
+a, button, li, a:hover, a:focus, button:hover
+	outline: none
+	+transition(all 0.2s ease-in-out)
+
+svg.icon
+	+size(16px)
+
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+
+// Border Radius
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=center-vh
+	align-items: center
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+// *****************************************************************************
+
+=img-r
+	display: block
+	height: auto
+	max-width: 100%
+	width: 100%
+
+=reset-list
+	list-style: none
+	padding-left: 0
+	margin: 0
+
+=db
+	display: block
+
+=dn
+	display: none
+
+=tac
+	text-align: center
+
+=ttu
+	text-transform: uppercase
+
+=tdn
+	text-decoration: none
+
+=tdu
+	text-decoration: underline
+
+=full
+	position: absolute
+	right: 0
+	top: 0
+	left: 0
+	bottom: 0
+
+=out-n
+	outline: none
+
+=op1
+	opacity: 1
+
+=op0
+	opacity: 0

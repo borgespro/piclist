@@ -1,0 +1,7 @@
+header.main-header
+  nav.navbar.navbar-light.justify-content-center
+    a.navbar-brand(href="index.html") findPic
+    form.form-inline
+      input.form-control.mr-sm-2(type='search', placeholder='O que você procura?', aria-label='Search',
+        ng-change="vm.search(vm.searchValue)" ng-model="vm.searchValue")
+      button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Pesquisar
